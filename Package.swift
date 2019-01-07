@@ -10,7 +10,7 @@ let package = Package(
             targets: ["OAuth2"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/PerfectlySoft/Perfect-Session.git", from: "3.1.3"),
+        .package(url: "https://github.com/ryancoyne/Perfect-Session.git", from: "4.0.0"),
     ],
     targets: [
         .target(
