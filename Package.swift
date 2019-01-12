@@ -15,7 +15,7 @@ let package = Package(
     targets: [
         .target(
             name: "OAuth2",
-            dependencies: ["PerfectSession"]
+            dependencies: ["PerfectSession"],
             path: "Sources/OAuth2"),
         .testTarget(
             name: "OAuth2Tests",
